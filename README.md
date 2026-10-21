@@ -1,5 +1,20 @@
-# vira-bench
+# VIRA-Bench project page
 
-按用户任务组织：安装 → 获取数据与权重 → 最小示例 → 复现论文结果。
+Project website for **VIRA-Bench: Diagnosing Pedagogical Contingency Understanding in Online Tutoring Videos**, EMNLP 2026 Main Conference (Oral).
 
-> 许可证尚未选择；在 `LICENSE` 落定、复现验收通过之前，这不是发布版本。
+- Website: https://whwangovo.github.io/vira-bench/
+- Paper: [PDF](static/pdf/VIRA-Bench.pdf)
+
+This repository currently contains the static project website and paper PDF. Benchmark code and data are not included. The arXiv, Code, and Data buttons retain their pending status until their destinations are available.
+
+## Local preview
+
+```bash
+python3 -m http.server 8765
+```
+
+## Deployment
+
+GitHub Pages publishes the root of the `main` branch. No build step is required. `.nojekyll` preserves the static files. Project Pages may inherit the custom domain of the owner's user site.
+
+Edit `index.html` and `static/css/style.css` for future website changes. The distribution and intervention charts are HTML/CSS.
